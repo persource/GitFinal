@@ -346,5 +346,9 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             showProgress(false);
         }
     }
+
+    private void testCommit(){
+        //test master
+    }
 }
 
