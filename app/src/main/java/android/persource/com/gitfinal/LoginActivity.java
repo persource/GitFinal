@@ -99,6 +99,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             return;
         }
 
+        //Init loader here
         getLoaderManager().initLoader(0, null, this);
     }
 
@@ -150,6 +151,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
         // Reset errors.
         mEmailView.setError(null);
+        //Reset password error
         mPasswordView.setError(null);
 
         // Store values at the time of the login attempt.
