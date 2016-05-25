@@ -99,6 +99,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             return;
         }
 
+        //Init loader here
         getLoaderManager().initLoader(0, null, this);
     }
 
